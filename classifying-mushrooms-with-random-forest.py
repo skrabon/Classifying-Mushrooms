@@ -1,11 +1,8 @@
-#Project 4 file for CS 639
+
 #This file classifies mushrooms as poison or edible using a random forest classifer
 #Author: Sara Rabon
-#Outside help:
-#   Josiah Fee - Another student in class who helped explain what 
-#       one hot encoding is and how to use it with this assignment
-#       because god knows I struggled with changing categorical to
-#       numerical values
+#Source: Data received from the follow Kaggle competition:
+
 
 
 import numpy as np # linear algebra
