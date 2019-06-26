@@ -16,7 +16,7 @@ print(os.listdir("../input"))
 
 #This program uses a training.csv file and test.csv file to classify mushrooms as poisonous
 #or edible. It uses a random forest classifier from scikit learn to accomplish this.
-def main():
+def classify():
     
     #Get data from training.csv and test.csv
     df = pd.read_csv("../input/train.csv", header=0)
@@ -48,4 +48,4 @@ def main():
     output.to_csv("csv_to_submit.csv", index = False)
     
 if __name__ == "__main__":
-    main()
+    classify()
